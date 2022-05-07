@@ -1,4 +1,4 @@
-package com.packt.dao;
+package com.wcdaren.dao;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
@@ -31,7 +31,7 @@ public class RegistratioDaoSpringTest {
 		String joesFirstName = "Joseph";
 		String joesLastName = "Lawrence";
 
-		// Stub jdbcTemplate’s update to return 1
+		// Stub jdbcTemplateï¿½s update to return 1
 		when(
 			mockJdbcTemplate.update(anyString(), anyString(), anyObject(),
 						anyObject(), anyObject())).thenReturn(1);
@@ -65,7 +65,7 @@ public class RegistratioDaoSpringTest {
 		String joesFirstName = "Joseph";
 		String joesLastName = "Lawrence";
 
-		// Stub jdbcTemplate’s update  to return no update
+		// Stub jdbcTemplateï¿½s update  to return no update
 		when(
 			mockJdbcTemplate.update(anyString(), anyString(), anyObject(),
 						anyObject(), anyObject())).thenReturn(0);

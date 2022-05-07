@@ -1,4 +1,4 @@
-package com.packt.controller;
+package com.wcdaren.controller;
 
 import java.io.Serializable;
 
@@ -8,7 +8,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.packt.model.LoginInfo;
+import com.wcdaren.model.LoginInfo;
 
 @Controller
 @Scope("session")

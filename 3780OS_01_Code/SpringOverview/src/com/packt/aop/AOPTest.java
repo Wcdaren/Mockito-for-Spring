@@ -1,4 +1,4 @@
-package com.packt.aop;
+package com.wcdaren.aop;
 
 import org.springframework.aop.framework.ProxyFactory;
 

@@ -1,4 +1,4 @@
-package com.packt.database.util;
+package com.wcdaren.database.util;
 /*
 
    Derby - Class DatabaseManager

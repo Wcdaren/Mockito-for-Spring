@@ -1,4 +1,4 @@
-package com.packt.di;
+package com.wcdaren.di;
 
 import java.math.BigDecimal;
 import java.util.List;

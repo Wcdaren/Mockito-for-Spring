@@ -1,4 +1,4 @@
-package com.packt.tx;
+package com.wcdaren.tx;
 
 import org.springframework.transaction.annotation.Transactional;
 

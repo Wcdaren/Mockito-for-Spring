@@ -1,4 +1,4 @@
-package com.packt.model;
+package com.wcdaren.model;
 
 public class LoginInfo {
 

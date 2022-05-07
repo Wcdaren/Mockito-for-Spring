@@ -1,4 +1,4 @@
-package com.packt.aop;
+package com.wcdaren.aop;
 
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;

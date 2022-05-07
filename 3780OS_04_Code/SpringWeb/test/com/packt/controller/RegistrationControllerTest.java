@@ -1,4 +1,4 @@
-package com.packt.controller;
+package com.wcdaren.controller;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.when;

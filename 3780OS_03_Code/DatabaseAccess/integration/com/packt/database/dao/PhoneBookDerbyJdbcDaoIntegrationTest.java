@@ -1,4 +1,4 @@
-package com.packt.database.dao;
+package com.wcdaren.database.dao;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -9,7 +9,7 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.packt.database.model.PhoneEntry;
+import com.wcdaren.database.model.PhoneEntry;
 
 public class PhoneBookDerbyJdbcDaoIntegrationTest {
 	PhoneBookDerbyDao jdbcDao;

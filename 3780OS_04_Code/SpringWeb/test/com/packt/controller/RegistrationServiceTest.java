@@ -1,12 +1,12 @@
-package com.packt.controller;
-import static com.packt.controller.RegistrationService.COULD_NOT_CREATE_USER;
-import static com.packt.controller.RegistrationService.NAME_CONTAINS_NUMBER;
-import static com.packt.controller.RegistrationService.NAME_CONTAINS_SPECIAL_CHAR;
-import static com.packt.controller.RegistrationService.PLEASE_ENTER_FIRST_NAME;
-import static com.packt.controller.RegistrationService.PLEASE_ENTER_LAST_NAME;
-import static com.packt.controller.RegistrationService.PLEASE_ENTER_PASSWORD;
-import static com.packt.controller.RegistrationService.PLEASE_ENTER_USER_ID;
-import static com.packt.controller.RegistrationService.USER_ID_EXISTS;
+package com.wcdaren.controller;
+import static com.wcdaren.controller.RegistrationService.COULD_NOT_CREATE_USER;
+import static com.wcdaren.controller.RegistrationService.NAME_CONTAINS_NUMBER;
+import static com.wcdaren.controller.RegistrationService.NAME_CONTAINS_SPECIAL_CHAR;
+import static com.wcdaren.controller.RegistrationService.PLEASE_ENTER_FIRST_NAME;
+import static com.wcdaren.controller.RegistrationService.PLEASE_ENTER_LAST_NAME;
+import static com.wcdaren.controller.RegistrationService.PLEASE_ENTER_PASSWORD;
+import static com.wcdaren.controller.RegistrationService.PLEASE_ENTER_USER_ID;
+import static com.wcdaren.controller.RegistrationService.USER_ID_EXISTS;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
@@ -21,7 +21,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import com.packt.dao.RegistrationDao;
+import com.wcdaren.dao.RegistrationDao;
 
 @RunWith(MockitoJUnitRunner.class)
 public class RegistrationServiceTest {

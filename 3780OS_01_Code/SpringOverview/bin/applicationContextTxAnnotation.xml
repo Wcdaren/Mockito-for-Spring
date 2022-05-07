@@ -11,7 +11,7 @@
 	">
 
 	<context:annotation-config />
-	<bean id="fooService" class="com.packt.tx.FooServiceImpl" />
+	<bean id="fooService" class="com.wcdaren.tx.FooServiceImpl" />
 
 	<!-- enable the configuration of transactional behavior based on annotations -->
 	<tx:annotation-driven transaction-manager="txManager" />

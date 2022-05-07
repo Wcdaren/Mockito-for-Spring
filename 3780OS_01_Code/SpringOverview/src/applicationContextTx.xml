@@ -11,11 +11,11 @@
 	">
 
 	<context:annotation-config />
-	<bean id="fooService" class="com.packt.tx.FooServiceImpl" />
+	<bean id="fooService" class="com.wcdaren.tx.FooServiceImpl" />
 
 	<aop:config>
 		<aop:pointcut id="fooServiceOperation"
-			expression="execution(* com.packt.tx.FooService.*(..))" />
+			expression="execution(* com.wcdaren.tx.FooService.*(..))" />
 		<aop:advisor advice-ref="txAdvice" pointcut-ref="fooServiceOperation" />
 	</aop:config>
 

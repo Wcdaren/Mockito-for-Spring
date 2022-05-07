@@ -1,4 +1,4 @@
-package com.packt.tx;
+package com.wcdaren.tx;
 
 public interface FooService {
 

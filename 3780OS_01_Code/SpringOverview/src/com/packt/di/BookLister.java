@@ -1,4 +1,4 @@
-package com.packt.di;
+package com.wcdaren.di;
 
 import java.util.ArrayList;
 import java.util.List;

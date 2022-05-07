@@ -1,4 +1,4 @@
-package com.packt.database.dao;
+package com.wcdaren.database.dao;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.transaction.TransactionConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.packt.database.model.PhoneEntry;
+import com.wcdaren.database.model.PhoneEntry;
 
 @ContextConfiguration({ "classpath:integration.xml" })
 @TransactionConfiguration(transactionManager = "transactionManager", defaultRollback = true)

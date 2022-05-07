@@ -1,4 +1,4 @@
-package com.packt.aop;
+package com.wcdaren.aop;
 
 public interface IMessageWriter {
 	void writeMessage();

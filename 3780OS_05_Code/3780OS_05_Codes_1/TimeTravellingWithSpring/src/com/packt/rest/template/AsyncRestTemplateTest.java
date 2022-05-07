@@ -1,4 +1,4 @@
-package com.packt.rest.template;
+package com.wcdaren.rest.template;
 
 import java.io.IOException;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.packt.controller;
+package com.wcdaren.controller;
 
 import static org.junit.Assert.*;
 
@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.springframework.ui.ModelMap;
 
-import com.packt.model.LoginInfo;
+import com.wcdaren.model.LoginInfo;
 
 public class LoginControllerTest {
 

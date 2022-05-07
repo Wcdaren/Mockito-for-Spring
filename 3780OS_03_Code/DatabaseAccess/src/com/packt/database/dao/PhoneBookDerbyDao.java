@@ -1,4 +1,4 @@
-package com.packt.database.dao;
+package com.wcdaren.database.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-import com.packt.database.model.PhoneEntry;
+import com.wcdaren.database.model.PhoneEntry;
 
 public class PhoneBookDerbyDao implements PhoneBookDao {
 	public static final String INSERT_INTO_PHONE_BOOK_VALUES = "insert into PhoneBook values (?,?,?)";

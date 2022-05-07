@@ -1,4 +1,4 @@
-package com.packt.async;
+package com.wcdaren.async;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

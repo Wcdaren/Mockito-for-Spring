@@ -1,10 +1,10 @@
-package com.packt.lifecycle;
+package com.wcdaren.lifecycle;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.packt.tx.FooService;
+import com.wcdaren.tx.FooService;
 
 public class HelloWorldExample {
 	

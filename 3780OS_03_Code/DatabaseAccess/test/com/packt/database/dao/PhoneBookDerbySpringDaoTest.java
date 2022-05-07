@@ -1,4 +1,4 @@
-package com.packt.database.dao;
+package com.wcdaren.database.dao;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -15,7 +15,7 @@ import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import com.packt.database.model.PhoneEntry;
+import com.wcdaren.database.model.PhoneEntry;
 
 @RunWith(MockitoJUnitRunner.class)
 public class PhoneBookDerbySpringDaoTest {

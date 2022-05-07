@@ -15,7 +15,7 @@
        <constructor-arg value="auto wired" />
     </bean>
     
-	<bean id="helloWorld" class="com.packt.lifecycle.HelloWorld">
+	<bean id="helloWorld" class="com.wcdaren.lifecycle.HelloWorld">
 	</bean>
        
 </beans>

@@ -1,4 +1,4 @@
-package com.packt.lifecycle;
+package com.wcdaren.lifecycle;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanFactory;
